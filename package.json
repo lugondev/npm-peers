@@ -1,5 +1,5 @@
 {
-	"name": "@qae/peers",
+	"name": "@arkecosystem/peers",
 	"version": "0.2.1",
 	"description": "A simple TypeScript peer discovery client for the ARK Blockchain.",
 	"homepage": "https://github.com/qredit/typescript-peers",
