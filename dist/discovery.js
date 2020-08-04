@@ -36,7 +36,7 @@ class PeerDiscovery {
                 }
             }
             else {
-                const { body } = await got_1.default.get(`https://raw.githubusercontent.com/qredit/peers/master/${networkOrHost}.json`);
+                const { body } = await got_1.default.get(`https://raw.githubusercontent.com/lugondev/peers/master/${networkOrHost}.json`);
                 for (const seed of JSON.parse(body)) {
                     seeds.push({ ip: seed.ip, port: defaultPort });
                 }
